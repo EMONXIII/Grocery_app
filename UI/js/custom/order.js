@@ -45,7 +45,7 @@ $("#saveOrder").on("click", function(){
     var formData = $("form").serializeArray();
     var requestPayload = {
         customer_name: null,
-        total: null,
+        grand_total: null,
         order_details: []
     };
     var orderDetails = [];
